@@ -7,13 +7,13 @@ namespace GigHub.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class InitialModel : IMigrationMetadata
+    public sealed partial class PopulateGenresTable : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialModel));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(PopulateGenresTable));
         
         string IMigrationMetadata.Id
         {
-            get { return "201809080630338_InitialModel"; }
+            get { return "201809080933061_PopulateGenresTable"; }
         }
         
         string IMigrationMetadata.Source
